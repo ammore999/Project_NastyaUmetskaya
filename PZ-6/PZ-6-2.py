@@ -2,8 +2,14 @@
 #данном списке.
 import random
 
-N = 10
-lst = [random.randint(1, 20) for _ in range(N)]
+lst = []
+N =10
+for i in range(N):
+    random_int = random.randint(1, 100)
+    lst.append(random_int)
+
+
+
 print("Список:", lst)
 
 number = len(set(lst))

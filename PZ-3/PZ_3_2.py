@@ -13,7 +13,7 @@ while True:
             break
         else:
             A=0
-            B=0
+            B=03
             print('Новые значения A и B:' , A, B)
 
     except ValueError:

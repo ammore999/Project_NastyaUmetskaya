@@ -21,4 +21,4 @@ try:
     print ("Приближенное значение sin x:", result)
 
 except ValueError :
-    print(f"Ошибка: ")
+    print("Ошибка: ")

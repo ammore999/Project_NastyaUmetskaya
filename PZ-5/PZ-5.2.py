@@ -3,9 +3,9 @@
 # С помощью этой функции выполнить левый циклический сдвиг для двух данных наборов из трех чисел: (A1, B1, C1) и (A2, B2, C2)
 def ShiftLeft3(A, B, C):
     temp = A
-    A = C
-    C = B
-    B = temp
+    A = B
+    B = C
+    C = temp
     return A, B, C
 A1 = float(input("Введите A1: "))
 B1 = float(input("Введите B1: "))
